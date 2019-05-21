@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import store from './store';
+import {changeInputAction, addItemAction, delItemAction} from './store/actionCreators';
 
 class TodoList extends Component {
 
@@ -40,23 +41,15 @@ class TodoList extends Component {
   }
 
   handleInputValue(e){
-    const action = {
-      type: 'handle_input_value',
-      value: e.target.value
-    }
+    const action = changeInputAction(e.target.value);
     store.dispatch(action)
   }
   handleBtnAdd(){
-    const action = {
-      type: 'add_item'
-    }
+    const action = addItemAction();
     store.dispatch(action);
   }
   clickItemDelete(index){
-    const action = {
-      type: 'delete_item',
-      value: index
-    }
+    const action = delItemAction(index);
     store.dispatch(action);
   }
   changeState(){
