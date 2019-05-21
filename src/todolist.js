@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import store from './store';
-import {changeInputAction, addItemAction, delItemAction} from './store/actionCreators';
+import {changeInputAction, addItemAction, delItemAction, initListAction} from './store/actionCreators';
+import axios from 'axios';
 
 class TodoList extends Component {
 
@@ -11,6 +12,13 @@ class TodoList extends Component {
     this.handleBtnAdd = this.handleBtnAdd.bind(this);
     this.changeState = this.changeState.bind(this);
     store.subscribe(this.changeState);
+  }
+
+  componentDidMount() {
+    axios.get('/store/list.json').then((res)=>{
+      const action = initListAction(res.data);
+      store.dispatch(action)
+    })
   }
 
   render() {

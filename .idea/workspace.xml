@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5970f216-5f45-47f3-a21c-56a8af71ab5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/store/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todolist.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +58,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+                <state relative-caret-position="484">
+                  <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -61,8 +67,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/store/actionTypes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+                <state relative-caret-position="84">
+                  <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -70,8 +76,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/store/actionCreators.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+                <state>
+                  <caret column="41" selection-start-column="41" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -79,11 +85,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/todolist.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+                <state relative-caret-position="336">
+                  <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/store/list.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -97,7 +112,7 @@
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
                   <first_editor relative-caret-position="405">
-                    <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+                    <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -125,11 +140,12 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
-        <option value="$PROJECT_DIR$/src/store/README.md" />
-        <option value="$PROJECT_DIR$/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/public/store/list.json" />
         <option value="$PROJECT_DIR$/src/store/actionTypes.js" />
         <option value="$PROJECT_DIR$/src/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/src/store/reducer.js" />
         <option value="$PROJECT_DIR$/src/todolist.js" />
+        <option value="$PROJECT_DIR$/src/store/README.md" />
       </list>
     </option>
   </component>
@@ -158,6 +174,12 @@
               <item name="learnreact" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnreact" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnreact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnreact" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnreact" type="b2602c69:ProjectViewProjectNode" />
@@ -221,20 +243,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1007" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21778488" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21778488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32896176" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32896176" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5005325" side_tool="true" weight="0.30984455" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.32677597" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.32677597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -249,16 +270,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/store/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -286,34 +297,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+    <entry file="file://$PROJECT_DIR$/public/store/list.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actionCreators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/todolist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        <state relative-caret-position="336">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

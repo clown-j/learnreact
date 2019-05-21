@@ -67,3 +67,16 @@ store.subscribe(this.changeState);
     )
   }
 ```
+
+### redux使用异步请求
+
+在生命周期函数componentDidMount中使用ajax请求。
+同时生成对应的action，并dispatch派发给对应reducer
+```
+componentDidMount() {
+    axios.get('/store/list.json').then((res)=>{
+      const action = initListAction(res.data);
+      store.dispatch(action)
+    })
+  }
+```
